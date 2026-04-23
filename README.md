@@ -50,7 +50,7 @@ On Windows this looks under `%LOCALAPPDATA%\Pearl Abyss\CD*\save\` for any `save
 ```bash
 crimson-mount-repair scan
 # or with an explicit path:
-crimson-mount-repair scan "C:\Users\you\AppData\Local\Pearl Abyss\CD\save\<id>\slot100\save.save"
+crimson-mount-repair scan "C:\Users\your-user-name\AppData\Local\Pearl Abyss\CD\save\<steam id>\slot100\save.save"
 ```
 
 Expected output if your save has the bug:
