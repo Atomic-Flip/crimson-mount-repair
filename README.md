@@ -56,7 +56,7 @@ crimson-mount-repair scan "C:\Users\your-user-name\AppData\Local\Pearl Abyss\CD\
 Expected output if your save has the bug:
 
 ```
-Save: C:\Users\you\AppData\Local\Pearl Abyss\CD\save\<id>\slot100\save.save
+Save: C:\Users\your-user-name\AppData\Local\Pearl Abyss\CD\save\<steam id>\slot100\save.save
 
 MercenarySaveData schema: 44 fields (1.04 — supported)
 
