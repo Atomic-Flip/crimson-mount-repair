@@ -45,6 +45,8 @@ crimson-mount-repair list
 
 On Windows this looks under `%LOCALAPPDATA%\Pearl Abyss\CD*\save\` for any `save.save` files. If you're on a different platform or your install is elsewhere, you can always pass the path explicitly.
 
+Note: Crimson Desert keeps up to 12 save slots per character: three autosaves (slot0 through slot2) and nine manual saves (slot100 through slot108). The tool scans all of them. When multiple are detected, you'll be pompted to indicate which one to repair. Most players will want the manual save slot they last used.
+
 ### 2. Scan (read-only, makes no changes)
 
 ```bash
