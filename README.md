@@ -4,7 +4,7 @@
 
 If quest-unlocked mounts — Silver Fang, Snow White Deer, Cloud Cart, Sky Streaker, and similar — disappeared from your mount menu after the 1.04 patch, this tool can detect and fix the affected records in your save file.
 
-## What this is — and isn't
+## What this is and what it isn't
 
 **This is:** a single-purpose repair utility. It looks for mount records in `MercenarySaveData._mercenaryDataList` that were silently corrupted during the 1.04 save-format migration and replaces them with well-formed 1.04-schema records. It preserves each mount's `_characterKey` and `_mercenaryNo` so the record's identity is retained.
 
@@ -17,7 +17,7 @@ If quest-unlocked mounts — Silver Fang, Snow White Deer, Cloud Cart, Sky Strea
 - Python 3.11 or newer
 - `pip install lz4 cryptography`
 
-Windows, macOS, and Linux all work — the tool only reads and writes save files, it doesn't interact with the running game.
+Windows, macOS, and Linux all work as the tool only reads and writes save files, it doesn't interact with the running game.
 
 ## Installation
 
