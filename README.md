@@ -2,7 +2,7 @@
 
 **A single-purpose repair utility for Crimson Desert saves affected by a mount-visibility bug introduced in patch 1.04.**
 
-If quest-unlocked mounts — Silver Fang, Snow White Deer, Cloud Cart, Sky Streaker, and similar — disappeared from your mount menu after the 1.04 patch, this tool can detect and fix the affected records in your save file.
+If quest-unlocked mounts (Silver Fang, Snow White Deer, Cloud Cart, Sky Streaker, and similar) disappeared from your mount menu after the 1.04 patch, this tool can detect and fix the affected records in your save file.
 
 ## What this is and what it isn't
 
