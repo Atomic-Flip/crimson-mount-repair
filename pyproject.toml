@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crimson-mount-repair"
+version = "0.1.0"
+description = "Surgical repair utility for the Crimson Desert 1.04 mount-visibility save bug."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+authors = [
+    { name = "Atomic-Flip" },
+]
+keywords = ["crimson-desert", "save-file", "mount", "repair", "pearl-abyss"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Games/Entertainment",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "lz4>=4.3",
+    "cryptography>=41.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Atomic-Flip/crimson-mount-repair"
+Issues = "https://github.com/Atomic-Flip/crimson-mount-repair/issues"
+
+[project.scripts]
+crimson-mount-repair = "crimson_mount_repair.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["crimson_mount_repair*"]
+
+[tool.setuptools.package-data]
+"crimson_mount_repair._vendor" = ["LICENSE-MPL-2.0"]

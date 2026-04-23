@@ -19,3 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+This MIT License applies to all files in this repository EXCEPT those under
+`src/crimson_mount_repair/_vendor/`, which are vendored copies of third-party
+code licensed under the Mozilla Public License 2.0. See the SPDX headers on
+those files and `src/crimson_mount_repair/_vendor/LICENSE-MPL-2.0` for details.

@@ -1,0 +1,21 @@
+Mozilla Public License Version 2.0
+==================================
+
+This file contains vendored code from the NattKh/CRIMSON-DESERT-SAVE-EDITOR-AND-GAME-MODS
+repository, licensed under the Mozilla Public License 2.0.
+
+Full license text: https://www.mozilla.org/en-US/MPL/2.0/
+
+The vendored files are:
+  - save_crypto.py
+  - save_parser.py
+  - parc_serializer.py
+  - models.py
+
+Upstream author: Rice (RicePaddySoftware / NattKh) and contributors.
+Upstream repository: https://github.com/NattKh/CRIMSON-DESERT-SAVE-EDITOR-AND-GAME-MODS
+
+These files are included here unmodified in accordance with the MPL 2.0 license.
+This project (crimson-mount-repair) uses these files only for decoding and
+encoding save files; the repair logic in the parent package is separately
+licensed under the MIT License (see the repository LICENSE file).
